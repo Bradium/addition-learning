@@ -1,2 +1,2 @@
 # addition-learning
-Page, teaching kids to addict, by ruler.
+Page, teaching kids to make addition by ruler.

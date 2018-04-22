@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.expression {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.inputs-container {
+    position: relative;
+    margin: 30px auto;
+    min-height: 30px;
+}
+
+.number-input-container {
+    display: none;
+    position: absolute;
+}
+
+.number-input {
+    width: 20px;
+}
+
+#question .number-input {
+    font-size: 50px;
+    width: 40px;
+}
+
+.curves-container {
+    top: 260px;
+    position: absolute;
+    width: 1000px;
+    min-height: 30px;
+}
+
+path {
+    display: none;
+}
+
+svg {
+    width: 1000px;
+}

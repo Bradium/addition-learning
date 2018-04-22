@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruler addition</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="addition.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="expression">
+        <span id="plus"> + </span>
+        <span id = "equal"> = </span>
+        <span id= "question"> ? </span>
+    </div>
+    <div class="inputs-container">
+        <div id="inputAContainer" class="number-input-container">
+            <input type="text" name="inputA" id="inputA" class="number-input">
+        </div>
+        <div id="inputBContainer" class="number-input-container">
+            <input type="text" name="inputB" id="inputB" class="number-input">
+        </div>
+
+    </div>
+    <div class="curves-container">
+        <svg>
+            <path id = "curve1" d="M97 80 Q 117 0 136 80" stroke="red" stroke-width="2" fill="transparent"></path>
+            <path id = "curve2" d="M136 80 Q 156 0 175 80" stroke="red" stroke-width="2" fill="transparent"></path>
+        </svg>
+    </div>
+    <div class="ruler">
+        <img src="imgs/sprite.png" alt="ruler">
+    </div>
+</div>
+
+</body>
+</html>
